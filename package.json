@@ -1,0 +1,36 @@
+{
+  "name": "get-request",
+  "version": "1.0.0",
+  "description": "get-request is a study project developed in Node.js and TypeScript, focusing on object-oriented programming (OOP) principles. It implements a customizable GET command that allows making HTTP or HTTPS requests to a specified URL. The project aims to demonstrate the usage of OOP concepts in a practical context and serves as a learning resource for understanding the implementation of command-line applications in Node.js.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
+    "pkg": "npm run build && pkg --targets=node14-win-x64 --no-bytecode --out-dir build ."
+  },
+  "pkg": {
+    "scripts": "dist/*.js",
+    "targets": [
+      "node14-win-x64"
+    ]
+  },
+  "bin": {
+    "get-request": "dist/index.js"
+  },
+  "keywords": [
+    "node",
+    "typescript",
+    "http",
+    "https",
+    "command-line",
+    "oop",
+    "study",
+    "axios"
+  ],
+  "author": "danielofaustino@proton.me",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.3.1",
+    "axios": "^1.4.0"
+  }
+}
