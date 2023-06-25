@@ -35,6 +35,7 @@ After running the application, you will be prompted to enter the following infor
 
 The application will start sending the GET requests according to the provided parameters. To pause the sending of requests, press `Ctrl + S`, to resume press `Enter` . To exit the application, press `Ctrl + C`.
 
-![project demo](https://github.com/danielofaustino/get-request/demo/recording.gif)
+
+![project demo](https://raw.githubusercontent.com/danielofaustino/get-request/main/demo/recording.gif)
 
 
