@@ -1,4 +1,4 @@
-# GET Command
+# get-request
 
 This is a project developed as part of an object-oriented programming (OOP) study. The objective of this project is to implement a parametrizable `GET` command in Node.js using TypeScript.
 
